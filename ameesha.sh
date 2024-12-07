@@ -36,7 +36,7 @@ CHECK_ROOT
 
 ssh-keygen
 echo 'export NAME=ameesha.site' >> ~/.bashrc 
-echo 'export KOPS_STATE_STORE=s3://ameesha.site' >> ~/.bashrc 
+echo 'export KOPS_STATE_STORE=s3://ameesha.sites3' >> ~/.bashrc 
 echo 'export AWS_REGION=us-east-1' >> ~/.bashrc 
 echo 'export CLUSTER_NAME=ameesha.site' >> ~/.bashrc 
 echo 'export EDITOR='/usr/bin/nano'' >> ~/.bashrc 
