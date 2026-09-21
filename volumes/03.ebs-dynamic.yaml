@@ -18,10 +18,11 @@ metadata:
     purpose: ebs-dynamic
 spec:
   nodeSelector:
-    topology.kubernetes.io/zone: us-east-1d
+    topology.kubernetes.io/zone: ap-south-1b.
+
   containers:
   - name: nginx
-    image: nginx
+    image: nginxd
     volumeMounts: # docker run -v hostpath:contaierpath
     - name: ebs-dynamic
       mountPath: /usr/share/nginx/html
