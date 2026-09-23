@@ -14,7 +14,8 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: ebs-dynamic
-  selector:
+selector:
+labels:
   purpose: ebs-dynamic
 spec:
   nodeSelector:
