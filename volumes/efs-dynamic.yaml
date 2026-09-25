@@ -23,12 +23,12 @@ spec:
   - name: nginx
     image: nginx
     volumeMounts:
-    - name: ebs-dynamic-volume
+    - name: efs-dynamic-volume
       mountPath: /usr/share/nginx/html
   volumes:
-  - name: ebs-dynamic-volume
+  - name: efs-dynamic-volume
     persistentVolumeClaim:
-      claimName: ebs-dynamic
+      claimName: efs-dynamic
 
 ---
 kind: Service
