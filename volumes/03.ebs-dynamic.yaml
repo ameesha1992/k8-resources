@@ -1,7 +1,8 @@
 apiVersion: app/v1
 kind: PersistentVolumeClaim
 metadata:
-  name: ebs-dynamic
+Namespace: "expense-ebs"
+name: ebs-dynamic
 spec:
   storageClassName: "expense-ebs"
   accessModes:
