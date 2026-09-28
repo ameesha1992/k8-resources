@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-#namespace: "expense-ebs"
+Namespace: expense
 name: ebs-dynamic
 spec:
   storageClassName: "expense-ebs"
